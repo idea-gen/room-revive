@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Furniture</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    .room-bg {
+      background-image: url('https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/gallery/bedroom/contemporary-kids-bedroom-with-bunk-bed-and-study-table/children-room-design.jpg.transform/bh-gallery-listing/image.webp'); /* Aesthetic room image */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white; /* Text color */
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-gray-800 text-white py-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">FurnitureFinder</h1>
+      <nav>
+        <a href="index.html" class="mx-2">Home</a>
+        <a href="#explore" class="mx-2">Explore</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="room-bg">
+    <div class="overlay flex items-center justify-center">
+      <div class="text-center p-8">
+        <h2 class="text-4xl font-bold mb-6">Discover Your Dream Space</h2>
+        <p class="text-lg mb-6">Explore curated furniture options to elevate your interiors.</p>
+        <a href="#explore" class="bg-blue-600 text-white py-3 px-6 rounded text-xl hover:bg-blue-500">Explore More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2024 FurnitureFinder. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
